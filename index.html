@@ -10,10 +10,7 @@
 </head>
 <body>
     <script>
-        window.Telegram.WebApp.setHeader('#RRGGBB');
-        window.Telegram.WebApp.setBackgroundColor('#RRGGBB');
-        window.Telegram.WebApp.setBackgroundColor('#RRGGBB');
-        window.document.getElementById("main").innerHTML = JSON.stringify(window.Telegram.WebApp.user);
+        window.document.getElementById("main").innerHTML = JSON.stringify(window.Telegram.WebApp.initData);
     </script>
     <div id="main">
         None
