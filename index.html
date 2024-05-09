@@ -9,6 +9,14 @@
 
 </head>
 <body>
-    App
+    <script>
+        window.Telegram.WebApp.setHeader('#RRGGBB');
+        window.Telegram.WebApp.setBackgroundColor('#RRGGBB');
+        window.Telegram.WebApp.setBackgroundColor('#RRGGBB');
+        window.document.getElementById("main").innerHTML = JSON.stringify(window.Telegram.WebApp.user);
+    </script>
+    <div id="main">
+        None
+    </div>
 </body>
 </html>
